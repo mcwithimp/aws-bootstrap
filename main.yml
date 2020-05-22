@@ -104,7 +104,7 @@ Resources:
             sudo yum install -y yarn 
 
             # Download latest code, unzip it into /home/ec2-user/app
-            wget https://github.com/mcwitimp/aws-bootstrap/archive/master.zip 
+            wget https://github.com/mcwithimp/aws-bootstrap/archive/master.zip 
             unzip master.zip
             mv aws-bootstrap-master app
 
