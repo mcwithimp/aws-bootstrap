@@ -1,4 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
+
 Parameters:
   EC2InstanceType:
     Type: String
@@ -124,5 +125,4 @@ Resources:
       Tags:
         - Key: Name
           Value: !Ref AWS::StackName
-
-Outputs:
+# Outputs:
